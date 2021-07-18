@@ -29,9 +29,9 @@ func (boolExpr *Bool) UnmarshalYAML(unmarshal func(interface{}) error) error {
 func NewBool(s string) (*Bool, error) {
 	prog, err := expr.Compile(s, expr.AsBool())
 	if err != nil {
-		return Bool{}, fmt.Errorf("compile a program: %w", err)
+		return nil, fmt.Errorf("compile a program: %w", err)
 	}
-	return Bool{prog: prog}, nil
+	return &Bool{prog: prog}, nil
 }
 
 func NewBoolForTest(t *testing.T, s string) *Bool {

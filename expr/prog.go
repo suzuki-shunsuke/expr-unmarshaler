@@ -28,7 +28,7 @@ func (prog *Program) UnmarshalYAML(unmarshal func(interface{}) error) error {
 func NewProgram(s string) (*Program, error) {
 	prog, err := expr.Compile(s, expr.AsBool())
 	if err != nil {
-		return &Program{}, fmt.Errorf("compile a program: %w", err)
+		return nil, fmt.Errorf("compile a program: %w", err)
 	}
 	return &Program{prog: prog}, nil
 }
