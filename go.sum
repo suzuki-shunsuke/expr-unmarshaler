@@ -1,5 +1,5 @@
-github.com/antonmedv/expr v1.14.0 h1:C4BHw+0cVyKy/ndU3uqYo6TV5rCtq/SY2Wdlwanvo/Q=
-github.com/antonmedv/expr v1.14.0/go.mod h1:FPC8iWArxls7axbVLsW+kpg1mz29A1b2M6jt+hZfDkU=
+github.com/antonmedv/expr v1.14.1 h1:NGd0itnydT5XQIsRKtM3dfZD5j05x01HHCbK3n6ffSA=
+github.com/antonmedv/expr v1.14.1/go.mod h1:FPC8iWArxls7axbVLsW+kpg1mz29A1b2M6jt+hZfDkU=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
